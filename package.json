@@ -9,12 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/mongodb-adapter": "^2.0.0",
+    "@aws-sdk/client-s3": "^3.421.0",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "mime-types": "^2.1.35",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.3",
+    "multiparty": "^4.2.3",
+    "next": "latest",
+    "next-auth": "^4.23.1",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-sortablejs": "^6.1.4",
+    "react-spinners": "^0.13.8",
+    "react-sweetalert2": "^0.6.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
   }
 }
